@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[node name="MiniMap" type="CanvasLayer"]
+
+[node name="MapPanel" type="Panel" parent="."]
+position = Vector2(980, 20)
+size = Vector2(260, 260)
+
+[node name="PlayerMarker" type="ColorRect" parent="MapPanel"]
+position = Vector2(120, 120)
+size = Vector2(12, 12)
