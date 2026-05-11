@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[node name="Festival" type="Node3D"]
+
+[node name="FoodStalls" type="MeshInstance3D" parent="."]
+
+[node name="LanternLights" type="OmniLight3D" parent="."]
+light_energy = 2.5
+
+[node name="Stage" type="MeshInstance3D" parent="."]
