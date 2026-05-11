@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="SakuraParticles" type="GPUParticles3D"]
+
+amount = 1000
+lifetime = 6.0
