@@ -1,0 +1,15 @@
+[gd_scene format=3]
+
+[node name="SettingsMenu" type="CanvasLayer"]
+
+[node name="VolumeSlider" type="HSlider" parent="."]
+position = Vector2(400, 220)
+size = Vector2(400, 40)
+
+[node name="GraphicsButton" type="Button" parent="."]
+position = Vector2(500, 340)
+text = "Graphics"
+
+[node name="BackButton" type="Button" parent="."]
+position = Vector2(500, 450)
+text = "Back"
