@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[node name="OpeningCinematic" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="SkyLight" type="DirectionalLight3D" parent="."]
+light_energy = 2.2
+
+[node name="SchoolGate" type="MeshInstance3D" parent="."]
+
+[node name="Train" type="MeshInstance3D" parent="."]
+
+[node name="RainParticles" type="GPUParticles3D" parent="."]
