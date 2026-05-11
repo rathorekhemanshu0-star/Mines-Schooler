@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[node name="DialogueUI" type="CanvasLayer"]
+
+[node name="Panel" type="Panel" parent="."]
+position = Vector2(80, 500)
+size = Vector2(1120, 180)
+
+[node name="CharacterName" type="Label" parent="Panel"]
+position = Vector2(30, 20)
+text = "Airi"
+
+[node name="DialogueText" type="RichTextLabel" parent="Panel"]
+position = Vector2(30, 60)
+size = Vector2(1000, 100)
+text = "Welcome to Aether Academy..."
