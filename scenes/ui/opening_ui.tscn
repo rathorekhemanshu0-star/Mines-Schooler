@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[node name="OpeningUI" type="CanvasLayer"]
+
+[node name="GameLogo" type="Label" parent="."]
+position = Vector2(380, 180)
+text = "MINES SCHOOLER"
+
+[node name="PressStart" type="Label" parent="."]
+position = Vector2(500, 520)
+text = "Tap To Start"
