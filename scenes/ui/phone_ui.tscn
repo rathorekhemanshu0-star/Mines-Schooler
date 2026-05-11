@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[node name="PhoneUI" type="CanvasLayer"]
+
+[node name="PhonePanel" type="Panel" parent="."]
+position = Vector2(880, 120)
+size = Vector2(320, 520)
+
+[node name="MessagesLabel" type="Label" parent="PhonePanel"]
+position = Vector2(20, 20)
+text = "Messages"
+
+[node name="MessageList" type="RichTextLabel" parent="PhonePanel"]
+position = Vector2(20, 60)
+size = Vector2(260, 360)
+text = "Airi: Meet me on the rooftop after class."
+
+[node name="ReplyButton" type="Button" parent="PhonePanel"]
+position = Vector2(90, 450)
+size = Vector2(140, 40)
+text = "Reply"
