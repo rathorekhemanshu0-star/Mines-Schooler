@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[node name="Cafeteria" type="Node3D"]
+
+[node name="Tables" type="MeshInstance3D" parent="."]
+
+[node name="FoodCounter" type="MeshInstance3D" parent="."]
+
+[node name="Lights" type="OmniLight3D" parent="."]
+light_energy = 1.5
