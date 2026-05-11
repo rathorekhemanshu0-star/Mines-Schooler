@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[node name="RainSystem" type="GPUParticles3D"]
+
+amount = 3000
+lifetime = 4.0
