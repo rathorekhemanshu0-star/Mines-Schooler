@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[node name="MobileUI" type="CanvasLayer"]
+
+[node name="Joystick" type="TextureRect" parent="."]
+position = Vector2(40, 500)
+size = Vector2(180, 180)
+
+[node name="InteractButton" type="Button" parent="."]
+position = Vector2(1080, 520)
+size = Vector2(120, 120)
+text = "Interact"
+
+[node name="SprintButton" type="Button" parent="."]
+position = Vector2(920, 520)
+size = Vector2(120, 120)
+text = "Sprint"
+
+[node name="MenuButton" type="Button" parent="."]
+position = Vector2(1120, 40)
+size = Vector2(100, 60)
+text = "Menu"
