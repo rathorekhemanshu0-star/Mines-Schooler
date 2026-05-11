@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[node name="SaveLoadUI" type="CanvasLayer"]
+
+[node name="SaveButton" type="Button" parent="."]
+position = Vector2(500, 260)
+size = Vector2(240, 60)
+text = "Save Game"
+
+[node name="LoadButton" type="Button" parent="."]
+position = Vector2(500, 360)
+size = Vector2(240, 60)
+text = "Load Game"
