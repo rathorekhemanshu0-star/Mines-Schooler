@@ -1,0 +1,12 @@
+[gd_scene format=3]
+
+[node name="NightCity" type="Node3D"]
+
+[node name="Road" type="MeshInstance3D" parent="."]
+
+[node name="StreetLights" type="OmniLight3D" parent="."]
+light_energy = 3.0
+
+[node name="ConvenienceStore" type="MeshInstance3D" parent="."]
+
+[node name="RainParticles" type="GPUParticles3D" parent="."]
