@@ -1,0 +1,12 @@
+[gd_scene format=3]
+
+[node name="Credits" type="CanvasLayer"]
+
+[node name="Title" type="Label" parent="."]
+position = Vector2(420, 120)
+text = "Thank You For Playing"
+
+[node name="CreditsText" type="RichTextLabel" parent="."]
+position = Vector2(240, 240)
+size = Vector2(800, 320)
+text = "Created with Godot Engine"
