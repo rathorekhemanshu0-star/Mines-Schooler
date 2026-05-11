@@ -1,0 +1,25 @@
+[gd_scene format=3]
+
+[node name="MainMenu" type="CanvasLayer"]
+
+[node name="Background" type="ColorRect" parent="."]
+size = Vector2(1280, 720)
+
+[node name="Title" type="Label" parent="."]
+position = Vector2(420, 120)
+text = "MINES SCHOOLER"
+
+[node name="StartButton" type="Button" parent="."]
+position = Vector2(520, 300)
+size = Vector2(240, 70)
+text = "Start Game"
+
+[node name="ContinueButton" type="Button" parent="."]
+position = Vector2(520, 390)
+size = Vector2(240, 70)
+text = "Continue"
+
+[node name="SettingsButton" type="Button" parent="."]
+position = Vector2(520, 480)
+size = Vector2(240, 70)
+text = "Settings"
