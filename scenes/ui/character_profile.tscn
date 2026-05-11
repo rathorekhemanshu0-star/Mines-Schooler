@@ -1,0 +1,15 @@
+[gd_scene format=3]
+
+[node name="CharacterProfile" type="CanvasLayer"]
+
+[node name="ProfilePanel" type="Panel" parent="."]
+position = Vector2(340, 120)
+size = Vector2(600, 420)
+
+[node name="CharacterName" type="Label" parent="ProfilePanel"]
+position = Vector2(40, 30)
+text = "Airi"
+
+[node name="AffectionLevel" type="Label" parent="ProfilePanel"]
+position = Vector2(40, 90)
+text = "Affection: 12"
