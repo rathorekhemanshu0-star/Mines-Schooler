@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[node name="Classroom" type="Node3D"]
+
+[node name="Floor" type="StaticBody3D" parent="."]
+
+[node name="TeacherDesk" type="MeshInstance3D" parent="."]
+
+[node name="StudentDesks" type="MeshInstance3D" parent="."]
+
+[node name="Blackboard" type="MeshInstance3D" parent="."]
+
+[node name="Windows" type="MeshInstance3D" parent="."]
+
+[node name="Lights" type="OmniLight3D" parent="."]
+light_energy = 1.2
