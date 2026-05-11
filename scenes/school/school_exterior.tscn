@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[node name="SchoolExterior" type="Node3D"]
+
+[node name="Ground" type="StaticBody3D" parent="."]
+
+[node name="SchoolBuilding" type="MeshInstance3D" parent="."]
+
+[node name="CherryTree" type="MeshInstance3D" parent="."]
+
+[node name="Gate" type="MeshInstance3D" parent="."]
